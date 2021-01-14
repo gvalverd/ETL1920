@@ -1,0 +1,8 @@
+Series Name,Series Code
+"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN
+"Cause of death, by injury (% of total)",SH.DTH.INJR.ZS
+"Central government debt, total (current LCU)",GC.DOD.TOTL.CN
+"Central government debt, total (% of GDP)",GC.DOD.TOTL.GD.ZS
+"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",SH.ALC.PCAP.LI
+"Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age)",SH.ALC.PCAP.FE.LI
+"Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age)",SH.ALC.PCAP.MA.LI
