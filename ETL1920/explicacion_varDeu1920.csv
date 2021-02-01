@@ -1,0 +1,26 @@
+indicator_name,indicator_code
+"Disbursements on external debt, long-term (DIS, current US$)",DT.DIS.DLXF.CD
+"Interest payments on external debt, long-term (INT, current US$)",DT.INT.DLXF.CD
+"PPG, bilateral (AMT, current US$)",DT.AMT.BLAT.CD
+"PPG, bilateral (DIS, current US$)",DT.DIS.BLAT.CD
+"PPG, bilateral (INT, current US$)",DT.INT.BLAT.CD
+"PPG, multilateral (AMT, current US$)",DT.AMT.MLAT.CD
+"PPG, multilateral (DIS, current US$)",DT.DIS.MLAT.CD
+"PPG, multilateral (INT, current US$)",DT.INT.MLAT.CD
+"PPG, official creditors (AMT, current US$)",DT.AMT.OFFT.CD
+"PPG, official creditors (DIS, current US$)",DT.DIS.OFFT.CD
+"PPG, official creditors (INT, current US$)",DT.INT.OFFT.CD
+"Principal repayments on external debt, long-term (AMT, current US$)",DT.AMT.DLXF.CD
+"Interest payments on external debt, private nonguaranteed (PNG) (INT, current US$)",DT.INT.DPNG.CD
+"PPG, bonds (AMT, current US$)",DT.AMT.PBND.CD
+"PPG, bonds (INT, current US$)",DT.INT.PBND.CD
+"PPG, commercial banks (AMT, current US$)",DT.AMT.PCBK.CD
+"PPG, commercial banks (DIS, current US$)",DT.DIS.PCBK.CD
+"PPG, commercial banks (INT, current US$)",DT.INT.PCBK.CD
+"PPG, other private creditors (AMT, current US$)",DT.AMT.PROP.CD
+"PPG, other private creditors (DIS, current US$)",DT.DIS.PROP.CD
+"PPG, other private creditors (INT, current US$)",DT.INT.PROP.CD
+"PPG, private creditors (AMT, current US$)",DT.AMT.PRVT.CD
+"PPG, private creditors (DIS, current US$)",DT.DIS.PRVT.CD
+"PPG, private creditors (INT, current US$)",DT.INT.PRVT.CD
+"Principal repayments on external debt, private nonguaranteed (PNG) (AMT, current US$)",DT.AMT.DPNG.CD
