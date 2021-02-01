@@ -1,0 +1,59 @@
+---
+title: "Lectura de archivos json y yaml en R"
+author: "Ignacio Ruiz de Zuazu Echevarría"
+date: "26/11/2020"
+output:
+  pdf_document:
+      latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Lectura de archivos JSON
+
+
+### Ejemplo con archivo creado
+
+```{r message=FALSE, warning=FALSE}
+library("rjson")
+
+result <- rjson::fromJSON(file = "./data/input.json")
+
+json_data_frame <- as.data.frame(result)
+
+print(json_data_frame)
+```
+
+### Ejemplo con iris dataset
+
+```{r}
+
+result <- rjson::fromJSON(file = "./data/iris.json", simplify = TRUE)
+
+iris_data_frame <- as.data.frame(result)
+
+print(head(iris_data_frame))
+```
+
+
+## Lectura de archivos YAML
+
+### Lectura de enviroment de conda
+
+```{r}
+library(yaml) 
+data <- yaml.load_file("./data/lendingclub.yml")
+print(data)
+```
+
+## Referencias
+
+https://www.tutorialspoint.com/r/r_json_files.htm
+
+https://stackoverflow.com/questions/29701189/importing-yaml-file-to-rstudio
+
+
+
+
